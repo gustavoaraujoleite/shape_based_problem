@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: fit-content;
+  gap: 1rem;
+}
+.main_box {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.active {
+  background-color: green;
+}
